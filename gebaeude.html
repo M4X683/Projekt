@@ -7,7 +7,7 @@
     <style>
 
         main {
-            margin-bottom: 50em;
+            margin-bottom: 80em;
         }
 
         .section {
@@ -32,19 +32,32 @@
             background: #fffad6;
             top: 0;
             padding: 1em;
+            margin-bottom: 0.3em;
+        }
+
+        .marker {
+            position: absolute;
+            visibility: hidden;
         }
 
         #n6 {
-            position: absolute;
-            visibility: hidden;
             margin-left: -26.5em;
             margin-top: 10em;
         }
 
-        li:hover #n6 {
-            visibility: visible;
+        #n7 {
+            margin-left: -24.5em;
+            margin-top: 3em;
         }
 
+        #bus {
+            margin-left: -26em;
+            margin-top: 15em;
+        }
+
+        li:hover .marker{
+            visibility: visible;
+        }
     </style>
 </head>
 <body>
@@ -84,9 +97,23 @@
             <li>
                 <h3>Hörsaal N6</h3>
                 <p>Horsaalzentrum 1. OG</p>
-                <img src="Images/Marker.png" id="n6">
+                <img src="Images/Marker.png" id="n6" class="marker">
+            </li>
+            <li>
+                <h3>Hörsaal N7</h3>
+                <p>Horsaalzentrum 1. OG</p>
+                <img src="Images/Marker.png" id="n7" class="marker">
+            </li>
+            <li>
+                <h3>Bushaltestelle</h3>
+                <p>BG Unfallklinik</p>
+                <img src="Images/Marker.png" id="bus" class="marker">
             </li>
         </ul>
+    </div>
+    <div id="sand" class="section">
+        <h2>Sand</h2>
+        <img src="Images/sand.png">
     </div>
 </main>
 <footer>
