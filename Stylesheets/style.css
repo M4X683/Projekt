@@ -100,7 +100,7 @@ nav ul li a, .dropbtn {
     display: block;
 }
 
-.dropdown:hover, .active{
+.dropdown:hover{
     background: linear-gradient(#5e6ead, #354881);
 }
 
@@ -110,6 +110,10 @@ nav ul li a, .dropbtn {
 
 .dropdown_content:hover {
     background: linear-gradient(#6071b3, #3a4f8d);
+}
+
+.active {
+    background: linear-gradient(#5e6ead, #354881);
 }
 
 main {
