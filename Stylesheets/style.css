@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Lora:700');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
 
 * {
     margin: 0;
@@ -28,14 +29,19 @@ header {
     color: #333;
     font-family: sans-serif;
     position: relative;
-    height: 4.08em;
+    height: 4.2em;
 }
 
 #logo {
-    height: 50px;
+    height: 70px;
     position: absolute;
-    top: 7px;
-    left: 30px;
+    top: -2px;
+    left: 20px;
+}
+
+#logo:hover {
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 12px;
 }
 
 nav ul {
@@ -63,6 +69,7 @@ nav ul li a, .dropbtn {
     margin-left: 40px;
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
+    background: #354881;
 }
 
 .dropdown_content {
@@ -107,6 +114,11 @@ nav ul li a, .dropbtn {
 
 main {
     margin-bottom: 10em;
+}
+
+#information {
+    margin-bottom: 2em;
+    float: left;
 }
 
 #stundenplan {
