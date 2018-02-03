@@ -6,14 +6,30 @@
     <link rel="stylesheet" href="../Stylesheets/style.css">
     <style>
 
-        #background {
-            position: absolute;
-            background: linear-gradient(white, white, #ddd);
+        body {
+            background: linear-gradient(white 20%, rgba(52, 185, 216, 0.55) 95%, white, white);
             width: 100vw;
-            height: 100vh;
-            right: 0;
-            top: 0;
-            z-index: -1;
+        }
+
+        main {
+            margin-top: 1em;
+        }
+
+        #text {
+            float: left;
+            width: 40%;
+            margin-left: 2em;
+            margin-top: 2em;
+        }
+
+        .image {
+            height: 20em;
+            margin-left: 3em;
+        }
+
+        #stundenplan th {
+            background-color: rgb(78, 200, 231);
+            color: white;
         }
     </style>
 </head>
@@ -22,7 +38,7 @@
     <a href="../index.html"><img src="../Images/Logo.png" id="logo"></a>
     <nav>
         <ul>
-            <li class="dropdown">
+            <li class="dropdown active">
                 <a href="faecher.html" class="dropbtn">Fächer</a>
                 <div class="dropdown_content">
                     <a href="bioinformatik.html">Bioinformatik</a>
@@ -46,8 +62,159 @@
     </nav>
 </header>
 <content>
+    <h1>Bioinformatik</h1>
     <main>
-        <h1>Bioinformatik</h1>
+        <div id="text">
+                <h2>Beschreibung</h2>
+                <p>Der Studiengang Bioinformatik besteht haupstsächlich aus Veranstaltungen aus den Bereichen:
+                    Informatik, Mathematik, Biologie und Chemie.  Hierbei werden „Informatik und Mathematik“ und die
+                    „Lebens – und Naturwissenschaften“ zu gleichen Teilen gewichtet.</p>
+                <br>
+                <p>Regelstudienzeit sind 6 Semester. Studienbeginn ist sowohl im Wintersemester, als auch im
+                    Sommersemester möglich.</p>
+                <br>
+                <p>Wer sich für Informationsverarbeitung im Bereich der Lebenswissenschaften interressiert, oder  eine
+                    Forschungskarriere im Bereich Pharmaindustrie, Biotechnologie, Biologie, oder Informatik anstrebt,
+                    sollte sich genauer mit dem Studiengang beschäftigen.</p>
+        </div>
+        <img class="image" src="../Images/bioinfo.jpg">
+        <div id="stundenplan">
+            <h2>Stundenplan – Erstes Semester</h2>
+            <table>
+                <tr>
+                    <th>Zeit</th>
+                    <th>Montag</th>
+                    <th>Dienstag</th>
+                    <th>Mittwoch</th>
+                    <th>Donnerstag</th>
+                    <th>Freitag</th>
+                </tr>
+                <tr>
+                    <td>08:00 - 10:00</td>
+                    <td>
+                        <p>Mathe 1</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Luxburg</p>
+                            <p><strong>Uhrzeit:</strong> 08:15 – 10:00</p>
+                            <p><strong>Klausur:</strong> 12. Februar 2018</p>
+                        </div>
+                    </td>
+                    <td></td>
+                    <td>
+                        <p>Mathe 1</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Luxburg</p>
+                            <p><strong>Uhrzeit:</strong> 08:15 – 10:00</p>
+                            <p><strong>Klausur:</strong> 12. Februar 2018</p>
+                        </div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10:00 - 12:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <p>Organische Chemie</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Speiser</p>
+                            <p><strong>Uhrzeit:</strong> 11:15 – 13:00</p>
+                            <p><strong>Klausur:</strong> n.a.</p>
+                        </div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12:00 - 14:00</td>
+                    <td>
+                        <p>Biomoleküle und Zelle</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Nordheim</p>
+                            <p><strong>Uhrzeit:</strong> 12:15 – 14:00</p>
+                            <p><strong>Klausur:</strong> 29.11.2017</p>
+                            <p><strong>Zusatzinfos:</strong> Vorlesungen über 5 Wochen</p>
+                        </div>
+                    </td>
+                    <td>
+                        <p>Biomoleküle und Zelle</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Nordheim</p>
+                            <p><strong>Uhrzeit:</strong> 12:15 – 14:00</p>
+                            <p><strong>Klausur:</strong> 29.11.2017</p>
+                            <p><strong>Zusatzinfos:</strong> Vorlesungen über 5 Wochen</p>
+                        </div>
+                    </td>
+                    <td>
+                        <p>Biomoleküle und Zelle</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Nordheim</p>
+                            <p><strong>Uhrzeit:</strong> 12:15 – 14:00</p>
+                            <p><strong>Klausur:</strong> 29.11.2017</p>
+                            <p><strong>Zusatzinfos:</strong> Vorlesungen über 5 Wochen</p>
+                        </div>
+                    </td>
+                    <td>
+                        <p>Organische Chemie</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Speiser</p>
+                            <p><strong>Uhrzeit:</strong> 11:15 – 13:00</p>
+                            <p><strong>Klausur:</strong> n.a.</p>
+                        </div>
+                    </td>
+                    <td>
+                        <p>Biomoleküle und Zelle</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Nordheim</p>
+                            <p><strong>Uhrzeit:</strong> 12:15 – 14:00</p>
+                            <p><strong>Klausur:</strong> 29.11.2017</p>
+                            <p><strong>Zusatzinfos:</strong> Vorlesungen über 5 Wochen</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>14:00 - 16:00</td>
+                    <td>
+                        <p>Allgemeine und Anorganische Chemie</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Meyer</p>
+                            <p><strong>Uhrzeit:</strong> 14:15 – 16:00</p>
+                            <p><strong>Klausur:</strong> n.a.</p>
+                        </div>
+                    </td>
+                    <td>
+                        <p>Informatik 1</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Ostermann</p>
+                            <p><strong>Uhrzeit:</strong> 14:15 – 16:00</p>
+                            <p><strong>Klausur:</strong> 06. Februar 2018</p>
+                        </div>
+                    </td>
+                    <td></td>
+                    <td>
+                        <p>Informatik 1</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Ostermann</p>
+                            <p><strong>Uhrzeit:</strong> 14:15 – 16:00</p>
+                            <p><strong>Klausur:</strong> 06. Februar 2018</p>
+                        </div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>16:00 - 18:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <span id="zusatzinfos">
+                <p>Anmerkung: Hinzu kommen noch Übungen und Übungsgruppen für die jeweiligen Fächer.</p>
+            </span>
+        </div>
     </main>
 </content>
 <footer>

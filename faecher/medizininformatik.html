@@ -4,13 +4,41 @@
     <meta charset="UTF-8">
     <title>Einstieg Erstsemester - Medizininformatik</title>
     <link rel="stylesheet" href="../Stylesheets/style.css">
+    <style>
+
+        body {
+            background: linear-gradient(white 20%, rgb(204, 200, 199) 95%, white, white);
+            width: 100vw;
+        }
+
+        main {
+            margin-top: 1em;
+        }
+
+        #text {
+            float: left;
+            width: 40%;
+            margin-left: 2em;
+            margin-top: 2em;
+        }
+
+        .image {
+            height: 20em;
+            margin-left: 3em;
+        }
+
+        #stundenplan th {
+            background-color: rgb(176, 172, 171);
+            color: white;
+        }
+    </style>
 </head>
 <body>
 <header>
     <a href="../index.html"><img src="../Images/Logo.png" id="logo"></a>
     <nav>
         <ul>
-            <li class="dropdown">
+            <li class="dropdown active">
                 <a href="faecher.html" class="dropbtn">Fächer</a>
                 <div class="dropdown_content">
                     <a href="bioinformatik.html">Bioinformatik</a>
@@ -34,11 +62,132 @@
     </nav>
 </header>
 <content>
+    <h1>Medizininformatik</h1>
     <main>
+        <div id="text">
+            <h2>Beschreibung</h2>
+            <p>Der Studiengang der Medizininformatik vermittelt hauptsächlich Grundlagen der Informatik, Mathematik, Biologie und Medizin.</p>
+            <br><p>Regelstudienzeit sind 6 Semester. Studienbeginn ist nur im Wintersemester möglich.</p>
+            <br><p>Die Zielgruppe des Studiums der Medizininformatik besteht aus Allen, die sich für Informationsverarbeitung im Gesundheitswesen interessieren, oder eine Forschungskarriere im Bereich der medizinischen Informatik anstreben. </p>
+        </div>
+        <img class="image" src="../Images/medinfo.jpeg" style="margin-left: 5em">
+        <div id="stundenplan">
+            <h2>Stundenplan – Erstes Semester</h2>
+            <table>
+                <tr>
+                    <th>Zeit</th>
+                    <th>Montag</th>
+                    <th>Dienstag</th>
+                    <th>Mittwoch</th>
+                    <th>Donnerstag</th>
+                    <th>Freitag</th>
+                </tr>
+                <tr>
+                    <td>08:00 - 10:00</td>
+                    <td>
+                        <p>Mathe 1</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Luxburg</p>
+                            <p><strong>Uhrzeit:</strong> 08:15 – 10:00</p>
+                            <p><strong>Klausur:</strong> 12. Februar 2018</p>
+                        </div>
+                    </td>
+                    <td></td>
+                    <td>
+                        <p>Mathe 1</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Luxburg</p>
+                            <p><strong>Uhrzeit:</strong> 08:15 – 10:00</p>
+                            <p><strong>Klausur:</strong> 12. Februar 2018</p>
+                        </div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10:00 - 12:00</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <p>Grundlagen Medizininformatik</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Lautenbacher</p>
+                            <p><strong>Uhrzeit:</strong> 10:15 – 12:00</p>
+                            <p><strong>Klausur:</strong> n.a.</p>
+                        </div>
+                    </td>
+                    <td>
+                        <p>Medizinische Terminologie</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Schneider</p>
+                            <p><strong>Uhrzeit:</strong> 10:15 – 12:00</p>
+                            <p><strong>Klausur:</strong> n.a.</p>
+                        </div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12:00 - 14:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>14:00 - 16:00</td>
+                    <td></td>
+                    <td>
+                        <p>Informatik 1</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Ostermann</p>
+                            <p><strong>Uhrzeit:</strong> 14:15 – 16:00</p>
+                            <p><strong>Klausur:</strong> 06. Februar 2018</p>
+                        </div>
+                    </td>
+                    <td></td>
+                    <td>
+                        <p>Informatik 1</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Ostermann</p>
+                            <p><strong>Uhrzeit:</strong> 14:15 – 16:00</p>
+                            <p><strong>Klausur:</strong> 06. Februar 2018</p>
+                        </div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>16:00 - 18:00</td>
+                    <td>
+                        <p>Biologie 1</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Huber, Hirt, Just</p>
+                            <p><strong>Uhrzeit:</strong> 16:00 – 17:30</p>
+                            <p><strong>Klausur:</strong> 09. Februar 2018</p>
+                        </div>
+                    </td>
+                    <td>
+                        <p>Biologie 1</p>
+                        <div class="popup">
+                            <p><strong>Dozent:</strong> Huber, Hirt, Just</p>
+                            <p><strong>Uhrzeit:</strong> 16:15 – 17:45</p>
+                            <p><strong>Klausur:</strong> 09. Februar 2018</p>
+                        </div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <span id="zusatzinfos">
+                <p>Anmerkung: Hinzu kommen noch Übungen und Übungsgruppen für die jeweiligen Fächer.</p>
+            </span>
+        </div>
     </main>
 </content>
 <footer>
     <a href="../impressum.html">Kontakt</a>
 </footer>
+<div id="background"></div>
 </body>
 </html>
