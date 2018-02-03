@@ -2,9 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Einstieg Erstsemester - Gebäude</title>
+    <link rel="stylesheet" href="Stylesheets/style.css">
+    <style>
+        .section {
+            padding-left: 2em;
+            padding-top: 2em;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .ort {
+            position: absolute;
+            top: 26em;
+            left: 39em;
+        }
+
+        .hidden {
+            position: absolute;
+            display: none;
+            background: #fffad3;
+            padding: 1em;
+            width: 13em;
+        }
+
+        .ort:hover .hidden {
+            display: block;
+        }
+
+    </style>
 </head>
 <body>
-
+<header>
+    <a href="index.html"><img src="Images/logo.svg" id="logo"></a>
+    <nav>
+        <ul>
+            <li class="dropdown">
+                <a href="faecher/faecher.html" class="dropbtn">Fächer</a>
+                <div class="dropdown_content">
+                    <a href="faecher/bioinformatik.html">Bioinformatik</a>
+                    <a href="faecher/informatik.html">Informatik</a>
+                    <a href="faecher/medizininformatik.html">Medizininformatik</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="organisation/organisation.html" class="dropbtn">Organisation</a>
+            </li>
+            <li class="dropdown">
+                <a href="klausurinfo.html" class="dropbtn">Klausurinfo</a>
+            </li>
+            <li class="dropdown">
+                <a href="ansprechpartner.html" class="dropbtn">Ansprechpartner</a>
+            </li>
+            <li class="dropdown active">
+                <a href="gebaeude.html" class="dropbtn">Gebäude</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Gebäude und Hörsaal Übersicht</h1>
+    <div id="morgenstelle" class="section">
+        <h2>Morgenstelle</h2>
+        <img src="Images/morgenstelle.png">
+        <div class="ort">
+            <img src="Images/Marker.png">
+            <div class="hidden">
+                <strong>Hörsaal N6</strong>
+                <p>Hörsaalzentrum Morgenstelle</p>
+                <p>Eingang 1. OG</p>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <a href="impressum.html">Kontakt</a>
+</footer>
+<div id="background"></div>
 </body>
 </html>

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b50659-a5cc-4dd1-bd1a-405b7993b56f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/Marker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/morgenstelle.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Logo.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ansprechpartner.html" afterPath="$PROJECT_DIR$/ansprechpartner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/klausurinfo.html" afterPath="$PROJECT_DIR$/klausurinfo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gebaeude.html" afterPath="$PROJECT_DIR$/gebaeude.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/organisation/organisation.html" afterPath="$PROJECT_DIR$/organisation/organisation.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,73 +19,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="gebaeude.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gebaeude.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="58" column="45" lean-forward="false" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+            <state relative-caret-position="-306">
+              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ansprechpartner.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ansprechpartner.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-              <folding>
-                <element signature="e#1841#1847#0" expanded="true" />
-                <element signature="e#2078#2084#0" expanded="true" />
-                <element signature="e#2088#2094#0" expanded="true" />
-                <element signature="e#2110#2116#0" expanded="true" />
-                <element signature="e#2116#2122#0" expanded="true" />
-                <element signature="e#2122#2128#0" expanded="true" />
-                <element signature="e#2128#2134#0" expanded="true" />
-                <element signature="e#2134#2140#0" expanded="true" />
-                <element signature="e#2195#2201#0" expanded="true" />
-                <element signature="e#2201#2207#0" expanded="true" />
-                <element signature="e#2207#2213#0" expanded="true" />
-                <element signature="e#2213#2219#0" expanded="true" />
-                <element signature="e#2219#2225#0" expanded="true" />
-                <element signature="e#2326#2332#0" expanded="true" />
-                <element signature="e#2332#2338#0" expanded="true" />
-                <element signature="e#2338#2344#0" expanded="true" />
-                <element signature="e#2344#2350#0" expanded="true" />
-                <element signature="e#2350#2356#0" expanded="true" />
-                <element signature="e#2461#2467#0" expanded="true" />
-                <element signature="e#2470#2476#0" expanded="true" />
-                <element signature="e#2551#2557#0" expanded="true" />
-                <element signature="e#2745#2751#0" expanded="true" />
-                <element signature="e#2920#2926#0" expanded="true" />
-                <element signature="e#3215#3221#0" expanded="true" />
-                <element signature="e#3481#3487#0" expanded="true" />
-                <element signature="e#3751#3757#0" expanded="true" />
-                <element signature="e#3955#3961#0" expanded="true" />
-                <element signature="e#4059#4065#0" expanded="true" />
-                <element signature="e#4089#4095#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="klausurinfo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/klausurinfo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="organisation.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/organisation/organisation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-              <folding />
-            </state>
+      <file leaf-file-name="morgenstelle.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Images/morgenstelle.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -92,6 +41,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="medizininformatik.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/faecher/medizininformatik.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="743">
+              <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -125,7 +84,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Faecher/faecher.html" />
-        <option value="$PROJECT_DIR$/gebaeude.html" />
         <option value="$PROJECT_DIR$/impressum.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -137,6 +95,7 @@
         <option value="$PROJECT_DIR$/ansprechpartner.html" />
         <option value="$PROJECT_DIR$/klausurinfo.html" />
         <option value="$PROJECT_DIR$/organisation/organisation.html" />
+        <option value="$PROJECT_DIR$/gebaeude.html" />
       </list>
     </option>
   </component>
@@ -148,7 +107,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
+    <option name="x" value="68" />
     <option name="y" value="23" />
     <option name="width" value="1151" />
     <option name="height" value="715" />
@@ -265,7 +224,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.organisation.html">
+    <configuration default="false" name="organisation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Projekt/organisation/organisation.html">
+      <method />
+    </configuration>
     <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
       <PhpTestRunnerSettings />
       <method />
@@ -333,6 +295,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.organisation.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.organisation.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -350,7 +320,7 @@
       <workItem from="1517572732820" duration="513000" />
       <workItem from="1517573494780" duration="5870000" />
       <workItem from="1517608637526" duration="163000" />
-      <workItem from="1517654285704" duration="10120000" />
+      <workItem from="1517654285704" duration="12287000" />
     </task>
     <task id="LOCAL-00001" summary="hui">
       <created>1516809041445</created>
@@ -457,14 +427,21 @@
       <option name="project" value="LOCAL" />
       <updated>1517673213358</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="&#10;a">
+      <created>1517673316662</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1517673316662</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33400000" />
+    <option name="totallyTimeSpent" value="35567000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="23" width="1151" height="715" extended-state="0" />
+    <frame x="68" y="23" width="1151" height="715" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2589053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -690,13 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gebaeude.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.html" />
     <entry file="file://$PROJECT_DIR$/Images/Logo.png">
       <provider selected="true" editor-type-id="images">
@@ -763,14 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faecher/medizininformatik.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -779,10 +741,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansprechpartner.html">
+    <entry file="file://$PROJECT_DIR$/klausurinfo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/organisation/organisation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansprechpartner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="7" />
           <folding>
             <element signature="e#1841#1847#0" expanded="true" />
             <element signature="e#2078#2084#0" expanded="true" />
@@ -817,18 +795,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/klausurinfo.html">
+    <entry file="file://$PROJECT_DIR$/Images/morgenstelle.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gebaeude.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        <state relative-caret-position="-306">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/organisation/organisation.html">
+    <entry file="file://$PROJECT_DIR$/faecher/medizininformatik.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        <state relative-caret-position="743">
+          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
           <folding />
         </state>
       </provider>
