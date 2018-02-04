@@ -28,14 +28,14 @@ header {
     background-color: #354881;
     color: #333;
     font-family: sans-serif;
-    height: 3.6em;
+    height: 3.3em;
     position: fixed;
     top: 0;
     z-index: 10;
 }
 
 #logo {
-    height: 3.6em;
+    height: 3.3em;
     position: fixed;
     top: 0;
     background: rgba(255, 255, 255, 0.26);
@@ -82,7 +82,7 @@ nav ul li a, .dropbtn {
 }
 
 .dropdown {
-    padding-bottom: 14px;
+    padding-bottom: 9px;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 16px;
@@ -100,7 +100,7 @@ nav ul li a, .dropbtn {
     z-index: 100;
     background-color: #354881;
     margin-left: -16px;
-    margin-top: 14px;
+    margin-top: 9px;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
     border-top-right-radius: 12px;
