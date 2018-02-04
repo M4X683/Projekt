@@ -7,7 +7,7 @@
     <style>
 
         main {
-            margin-bottom: 160em;
+            margin-bottom: 140em;
         }
 
         .section {
@@ -93,6 +93,15 @@
         li:hover .marker{
             visibility: visible;
         }
+
+        #attention {
+            position: absolute;
+            margin-top: -7em;
+            padding: 1em;
+            left: 1em;
+            font-size: 1.5em;
+            width: 40em;
+        }
     </style>
 </head>
 <body>
@@ -101,7 +110,7 @@
     <nav>
         <ul>
             <li class="dropdown faecher">
-                <a href="faecher/faecher.html" class="dropbtn">Fächer</a>
+                <a href="faecher/faecher.html" class="dropbtn">Studienangebote</a>
                 <div class="dropdown_content">
                     <a href="faecher/bioinformatik.html">Bioinformatik</a>
                     <a href="faecher/informatik.html">Informatik</a>
@@ -175,7 +184,6 @@
                 <img src="Images/Marker.png" id="bus3" class="marker">
             </li>
 
-			
         </ul>
     </div><br>
     <div id="sand" class="section">
@@ -201,6 +209,7 @@
         </ul>
     </div>
 </main>
+<span id="attention">Gehe mit der Maus über die einzelnen Räume/Orte um dir die Positionen auf der Karte anzeigen zu lassen.</span>
 <footer>
     <a href="impressum.html">Kontakt</a>
 </footer>
