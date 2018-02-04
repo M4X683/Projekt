@@ -28,13 +28,16 @@ header {
     background-color: #354881;
     color: #333;
     font-family: sans-serif;
-    position: relative;
     height: 3.5em;
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
 #logo {
     height: 3.5em;
-    position: absolute;
+    position: fixed;
+    top: 0;
     background: rgba(255, 255, 255, 0.26);
     border-radius: 12px;
     left: 20px;
@@ -54,14 +57,18 @@ header {
 }
 
 nav ul {
+    position: fixed;
+    top: 0;
     list-style-type: none;
     font-size: 1.5em;
     width: 95%;
     margin-left: 5%;
+    z-index: 10;
 }
 
 nav ul li {
     float: left;
+    z-index: 10;
 }
 
 nav ul li a, .dropbtn {
@@ -71,6 +78,7 @@ nav ul li a, .dropbtn {
     font-size: 1em;
     color: white;
     width: auto;
+    z-index: 10;
 }
 
 .dropdown {
@@ -79,16 +87,20 @@ nav ul li a, .dropbtn {
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
     background: #354881;
+    z-index: 10;
 }
 
 .dropdown_content {
     position: absolute;
     display: none;
     text-align: center;
-    z-index: 1;
+    z-index: 100;
     background-color: #354881;
     margin-left: -16px;
     margin-top: 14px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 .dropdown_content a {
@@ -97,16 +109,12 @@ nav ul li a, .dropbtn {
     background: linear-gradient(#354881, #5e6ead);
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
-}
-
-.dropdown_content {
-    border-bottom-right-radius: 12px;
-    border-bottom-left-radius: 12px;
-    border-top-right-radius: 12px;
+    z-index: 10;
 }
 
 .dropdown:hover .dropdown_content {
     display: block;
+    z-index: 10;
 }
 
 .dropdown:hover{
@@ -127,6 +135,7 @@ nav ul li a, .dropbtn {
 
 main {
     margin-bottom: 10em;
+    margin-top: 3em;
 }
 
 #information {
