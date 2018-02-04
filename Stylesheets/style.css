@@ -104,7 +104,7 @@ nav ul li a, .dropbtn {
     background: linear-gradient(#5e6ead, #354881);
 }
 
-.dropdown_content a:hover{
+.dropdown_content a:hover, .faecher:hover{
     background: linear-gradient(#7387d6, #4d69bc);
 }
 
