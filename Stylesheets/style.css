@@ -55,6 +55,15 @@ header {
     background: rgba(255, 255, 255, 0.45);
 }
 
+#texte {
+    float: left;
+    width: 40%;
+    margin-left: 2em;
+    line-height: 1.15em;
+    font-size: 1.1em;
+    font-family: sans-serif;
+}
+
 nav ul {
     list-style-type: none;
     font-size: 1.5em;
